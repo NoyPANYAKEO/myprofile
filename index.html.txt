@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ข้อมูลส่วนตัวของผม</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f2f2f2;
+      padding: 40px;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      width: 350px;
+      margin: auto;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .info {
+      margin-top: 20px;
+    }
+    .info h2 {
+      margin-bottom: 5px;
+    }
+    .info p {
+      margin: 4px 0;
+    }
+    .social a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #0077cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="profile-pic" src="profile.jpg" alt="โปรไฟล์">
+    <div class="info">
+      <h2>ชื่อของคุณ</h2>
+      <p>📞 020-xxxxxxx</p>
+      <p>✉️ your@email.com</p>
+      <p>📍 เวียงจันทน์, ลาว</p>
+      <div class="social">
+        <a href="https://facebook.com/yourid" target="_blank">Facebook</a>
+        <a href="https://instagram.com/yourid" target="_blank">Instagram</a>
+        <a href="https://tiktok.com/@yourid" target="_blank">TikTok</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
